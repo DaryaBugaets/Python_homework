@@ -17,3 +17,5 @@ steps=steps%len(data)
 data=[data[i-steps] for i in range(len(data))]
 print(data)
 
+# data={'Ivan':27, 'Alex':36, 'Kosta':{'age':21, 'hobby':['tennis', 'footbal']}}
+# print(data['Kosta']['hobby'][0])
